@@ -27,7 +27,7 @@ Each folder has a `train.py` that runs the training given the arguments.
 
 ### Plotting
 
-`_results/` contains the all the run metrics exported from wandb as CSVs; the provided notebooks read from there:
+`_results/` contains all the run metrics exported from wandb as CSVs; the provided notebooks read from there:
 
 - `_plot_gap.ipynb`. Plots the Adam-SGD gap with lr and mom sweep.
 - `_plot_figure1.ipynb`. Plots the main Figure 1: gap across all the setups

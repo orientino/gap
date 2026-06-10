@@ -10,7 +10,7 @@
 #SBATCH --gpus=4
 #SBATCH --partition=gpu
 #SBATCH --time=2-00:00:00
-#SBATCH --output=slurm/%x-%j.out
+#SBATCH --output=%x-%j.out
 
 echo -e "--------------------------------"
 echo -e "Start:\t $(date)"
